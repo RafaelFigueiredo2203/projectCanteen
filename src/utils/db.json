@@ -4,11 +4,11 @@
     "data": [
       {
         "id": "1",
-        "title": "X-React",
-        "price": 24.9,
+        "title": "X-Burger",
+        "price": 29.90,
         "description": "Um hamburger tão bonito que me deu fome enquanto eu fazia esse layout para o projeto...",
-        "cover": "../../assets/products/cover/1.png",
-        "thumbnail": "../../assets/products/thumbnail/1.png",
+        "cover": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/3535a6c5-6f31-468c-bfda-d281cbf37cae",
+        "thumbnail": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/42ba2763-65de-4f92-bdce-35e11fbf76f8",
         "ingredients": [
           "Pão brioche;",
           "2x carnes smash (blend da casa) de 80g;",
@@ -27,11 +27,11 @@
     "data": [
       {
         "id": "2",
-        "title": "X-JavaScript",
-        "price": 34.9,
+        "title": "X-Salada",
+        "price": 32.90,
         "description": "Os ingredientes desse hambúrguer mudam toda semana, então você sempre terá uma surpresa...",
-        "cover": "../../assets/products/cover/2.png",
-        "thumbnail": "../../assets/products/thumbnail/2.png",
+        "cover": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/781638da-315a-413b-a4fe-bbfffd9607a6",
+        "thumbnail": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/fe50b514-3642-410f-a90c-55628825f798",
         "ingredients": [
           "Pão brioche;",
           "2x carnes smash (blend da casa) de 80g;",
@@ -45,11 +45,11 @@
       },
       {
         "id": "3",
-        "title": "X-Cobol",
-        "price": 32.7,
+        "title": "Cachorro-quente",
+        "price": 31.70,
         "description": "Aquele hambúrguer que não podemos tirar do cardápio devido aos clientes mais antigos da hamburgueria...",
-        "cover": "../../assets/products/cover/3.png",
-        "thumbnail": "../../assets/products/thumbnail/3.png",
+        "cover": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/c8420e0e-ba33-4484-aec4-00876f351bef",
+        "thumbnail": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/9dc24eaf-2dd4-4b38-856d-ac5987140f36",
         "ingredients": [
           "Pão brioche;",
           "2x carnes smash (blend da casa) de 80g;",
@@ -64,10 +64,10 @@
       {
         "id": "4",
         "title": "X-Tailwind",
-        "price": 29.9,
+        "price": 29.90,
         "description": "Aquele que você não gosta de primeira, mas depois fica viciado e não consegue mais largar...",
-        "cover": "../../assets/products/cover/4.png",
-        "thumbnail": "../../assets/products/thumbnail/4.png",
+        "cover": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/30cf1a95-7138-4857-a503-9dabd0f12cde",
+        "thumbnail": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/84e0a15e-48ae-4aeb-9efd-54a36ab8160d",
         "ingredients": [
           "Pão brioche;",
           "2x carnes smash (blend da casa) de 80g;",
@@ -87,10 +87,10 @@
       {
         "id": "5",
         "title": "Sorvete com Brownie",
-        "price": 18.9,
+        "price": 18.90,
         "description": "Uma sobremesa deliciosa para saborear. Escolha o sorvete e a calda que desejar...",
-        "cover": "../../assets/products/cover/5.png",
-        "thumbnail": "../../assets/products/thumbnail/5.png",
+        "cover": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/d360b04b-66e7-4cb5-9f4e-3cbc0b233d1a",
+        "thumbnail": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/82ee190c-e2c3-4a42-9025-c476a200b339",
         "ingredients": [
           "1x Brownie;",
           "1x Bola de sorvete a sua escolha",
@@ -100,10 +100,10 @@
       {
         "id": "6",
         "title": "Cupcake",
-        "price": 22.9,
+        "price": 22.90,
         "description": "Um delicioso Cupcake para adoçar. Escolha o sabor que você gosta...",
-        "cover": "../../assets/products/cover/6.png",
-        "thumbnail": "../../assets/products/thumbnail/6.png",
+        "cover": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/e8f517a2-397b-49cf-9e22-a34cf6e17aaa",
+        "thumbnail": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/92080ede-bd64-4d8c-9717-0e8ecbdbbd16",
         "ingredients": [
           "Escolha o sabor;",
           "Chantilly;"
@@ -117,9 +117,9 @@
       {
         "id": "7",
         "title": "Hmmm, coquinha!",
-        "price": 6.9,
-        "thumbnail": "../../assets/products/thumbnail/7.png",
-        "cover": "../../assets/products/cover/7.png",
+        "price": 6.90,
+        "thumbnail": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/eae19785-3af0-42b6-ae54-17d7f04105bd",
+        "cover": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/93b459e3-a6a0-4df3-aedc-0dee087a6ed8",
         "description": "Uma coca super gelada para acompanhar o seu super lanche...",
         "ingredients": []
       }
