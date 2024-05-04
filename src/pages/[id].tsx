@@ -52,8 +52,9 @@ export default function ProductById() {
     <div className="flex-1">
       {product && (
         <>
+        <div className="md:flex flex-row items-center justify-center">
           {!product.cover && <Skeleton className="w-full h-52 resize " color="white"/> }
-          <img src={product.cover} className="w-full h-52 resize" />
+          <img src={product.cover} className="w-full resize md:w-44 md:h-44 md:ml-24 md:rounded-md md:resize-none" />
           <div className="p-5 mt-8 flex flex-1 flex-col">
             <span className="text-xl font-heading text-white">{product.title}</span>
             <span className="text-lime-400 text-2xl font-heading my-2">{FormatCurrency(product.price)}</span>
@@ -63,14 +64,15 @@ export default function ProductById() {
                 {"\u2022"} {ingredient}
               </span>
             ))}
+            </div>
           </div>
-          <div className="p-5 pb-8 gap-5 ">
-          <Button onClick={handleBuyProduct}  className="w-full h-12 bg-lime-600 ">
+          <div className="p-5 pb-8 gap-5 flex flex-col items-center justify-center ">
+          <Button onClick={handleBuyProduct}  className="w-full h-12 bg-lime-600 lg:w-96">
             <CirclePlus name="plus-circle " size={20}/>
             <span className="font-inter text-slate-200 text-lg ml-5">Adicionar Pedido</span>
             </Button>
 
-            <Link className="flex items-center justify-center w-full h-12  mt-5 rounded-md"  to="/">
+            <Link className="flex items-center justify-center w-full h-12  mt-5 rounded-md lg:w-96"  to="/">
               <span className="font-inter text-slate-200 text-lg ">Voltar ao Cardápio</span>
             </Link>
           </div>

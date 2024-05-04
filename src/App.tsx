@@ -17,7 +17,7 @@ export function App() {
     <CartProvider>
     <RouterProvider router={Routes}/>
     
-    <ToastContainer />
+    <ToastContainer autoClose={2000} theme="dark" />
     </CartProvider>
 
     </QueryClientProvider>

@@ -1,3 +1,4 @@
+import { Trash2 } from "lucide-react"
 import { Link } from "react-router-dom"
 
 
@@ -7,12 +8,14 @@ type ProductDataProps = {
   thumbnail:string
   quantity?: number
   titleCaregory?:string
-  hreference:string
+  hreference?:any;
+  showRemoveButton?: boolean;
+  onRemoveproduct?: () => void;
 }
 
 
 
-export function ProductCard({title,description, thumbnail, quantity , hreference}:ProductDataProps)  {
+export function ProductCard({title,description, thumbnail, quantity , hreference,onRemoveproduct, showRemoveButton}:ProductDataProps)  {
   return(
     <>
 
@@ -28,7 +31,18 @@ export function ProductCard({title,description, thumbnail, quantity , hreference
         }
         </div>
         <span className="text-slate-400 text-xs  mt-0.5 flex text-left " >{description}</span>
+
+        <button>
+
+        </button>
+   
       </div>
+      {showRemoveButton &&(
+      <button onClick={onRemoveproduct}
+      className="flex  items-center justify-center cursor-pointer relative mr-2"
+      >
+        <Trash2 size={20} color='red'  />
+      </button>)}
     </Link>
     </>
   )
