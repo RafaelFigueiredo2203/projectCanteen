@@ -122,351 +122,296 @@
         "cover": "https://github.com/RafaelFigueiredo2203/nlw-expert-react-native/assets/60237326/93b459e3-a6a0-4df3-aedc-0dee087a6ed8",
         "description": "Uma coca super gelada para acompanhar o seu super lanche...",
         "ingredients": []
-      },
+      }
+    ]
+  },
+  {
+    "title": "Pasteis Salgados",
+    "data": [
       {
         "id": "8",
-        "title": "Refrigerante Lata",
-        "price": 5.00,
-        "description": "Escolha entre Coca, Fanta ou Guaraná.",
-        "ingredients": []
+        "title": "Carne 15 cm",
+        "price": 10.00,
+        "description": "Pastel crocante recheado com carne moída temperada.",
+        "cover": "https://example.com/images/pastel-carne-15cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-carne-15cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Carne moída temperada;",
+          "Cebola;",
+          "Alho;",
+          "Azeitona;"
+        ]
       },
       {
         "id": "9",
-        "title": "Coca 1 LT",
-        "price": 9.00,
-        "ingredients": []
+        "title": "Carne 20 cm",
+        "price": 15.00,
+        "description": "Pastel grande crocante recheado com carne moída temperada.",
+        "cover": "https://example.com/images/pastel-carne-20cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-carne-20cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Carne moída temperada;",
+          "Cebola;",
+          "Alho;",
+          "Azeitona;"
+        ]
       },
       {
         "id": "10",
-        "title": "Coca 2 LTS",
+        "title": "Carne c/ queijo 15 cm",
         "price": 12.00,
-        "ingredients": []
+        "description": "Pastel crocante recheado com carne moída temperada e queijo derretido.",
+        "cover": "https://example.com/images/pastel-carne-queijo-15cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-carne-queijo-15cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Carne moída temperada;",
+          "Queijo muçarela;",
+          "Cebola;",
+          "Alho;",
+          "Azeitona;"
+        ]
       },
       {
         "id": "11",
-        "title": "Guaraná 2 LTS",
-        "price": 9.00,
-        "ingredients": []
+        "title": "Carne c/ queijo 20 cm",
+        "price": 17.00,
+        "description": "Pastel grande crocante recheado com carne moída temperada e queijo derretido.",
+        "cover": "https://example.com/images/pastel-carne-queijo-20cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-carne-queijo-20cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Carne moída temperada;",
+          "Queijo muçarela;",
+          "Cebola;",
+          "Alho;",
+          "Azeitona;"
+        ]
       },
       {
         "id": "12",
-        "title": "Vedete 2 LTS",
-        "price": 7.00,
-        "ingredients": []
+        "title": "Queijo 15 cm",
+        "price": 10.00,
+        "description": "Pastel crocante recheado com queijo derretido.",
+        "cover": "https://example.com/images/pastel-queijo-15cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-queijo-15cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Queijo muçarela;"
+        ]
       },
       {
         "id": "13",
-        "title": "Tampico 2 LTS",
-        "price": 9.00,
-        "ingredients": []
+        "title": "Queijo 20 cm",
+        "price": 15.00,
+        "description": "Pastel grande crocante recheado com queijo derretido.",
+        "cover": "https://example.com/images/pastel-queijo-20cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-queijo-20cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Queijo muçarela;"
+        ]
       },
       {
         "id": "14",
-        "title": "Cerveja Lata",
-        "price": 5.00,
-        "description": "Escolha entre Brahma e Skol.",
-        "ingredients": []
+        "title": "Pizza 15 cm",
+        "price": 12.00,
+        "description": "Pastel crocante recheado com molho de tomate, queijo e orégano.",
+        "cover": "https://example.com/images/pastel-pizza-15cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-pizza-15cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Molho de tomate;",
+          "Queijo muçarela;",
+          "Orégano;"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Pizza 20 cm",
+        "price": 17.00,
+        "description": "Pastel grande crocante recheado com molho de tomate, queijo e orégano.",
+        "cover": "https://example.com/images/pastel-pizza-20cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-pizza-20cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Molho de tomate;",
+          "Queijo muçarela;",
+          "Orégano;"
+        ]
       }
     ]
   },
   {
-    "title": "Pastéis Salgados",
+    "title": "Pasteis Doces",
     "data": [
       {
-        "id": "15",
-        "title": "Carne 15 cm",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
         "id": "16",
-        "title": "Carne 20 cm",
+        "title": "Romeu e Julieta 15 cm",
         "price": 15.00,
-        "ingredients": []
+        "description": "Pastel doce recheado com queijo e goiabada.",
+        "cover": "https://example.com/images/pastel-romeu-julieta-15cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-romeu-julieta-15cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Queijo;",
+          "Goiabada;"
+        ]
       },
       {
         "id": "17",
-        "title": "Carne c/ queijo 15 cm",
-        "price": 12.00,
-        "ingredients": []
+        "title": "Romeu e Julieta 20 cm",
+        "price": 18.00,
+        "description": "Pastel doce grande recheado com queijo e goiabada.",
+        "cover": "https://example.com/images/pastel-romeu-julieta-20cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-romeu-julieta-20cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Queijo;",
+          "Goiabada;"
+        ]
       },
       {
         "id": "18",
-        "title": "Carne c/ queijo 20 cm",
-        "price": 17.00,
-        "ingredients": []
+        "title": "Chocolate Preto 15 cm",
+        "price": 12.00,
+        "description": "Pastel doce recheado com chocolate preto.",
+        "cover": "https://example.com/images/pastel-chocolate-preto-15cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-chocolate-preto-15cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Chocolate preto;"
+        ]
       },
       {
         "id": "19",
-        "title": "Queijo 15 cm",
-        "price": 10.00,
-        "ingredients": []
+        "title": "Chocolate Preto 20 cm",
+        "price": 15.00,
+        "description": "Pastel doce grande recheado com chocolate preto.",
+        "cover": "https://example.com/images/pastel-chocolate-preto-20cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-chocolate-preto-20cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Chocolate preto;"
+        ]
       },
       {
         "id": "20",
-        "title": "Queijo 20 cm",
-        "price": 15.00,
-        "ingredients": []
+        "title": "Chocolate Branco 15 cm",
+        "price": 12.00,
+        "description": "Pastel doce recheado com chocolate branco.",
+        "cover": "https://example.com/images/pastel-chocolate-branco-15cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-chocolate-branco-15cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Chocolate branco;"
+        ]
       },
       {
         "id": "21",
-        "title": "Pizza 15 cm",
-        "price": 12.00,
-        "ingredients": []
+        "title": "Chocolate Branco 20 cm",
+        "price": 15.00,
+        "description": "Pastel doce grande recheado com chocolate branco.",
+        "cover": "https://example.com/images/pastel-chocolate-branco-20cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-chocolate-branco-20cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Chocolate branco;"
+        ]
       },
       {
         "id": "22",
-        "title": "Pizza 20 cm",
-        "price": 17.00,
-        "ingredients": []
+        "title": "Prestígio 15 cm",
+        "price": 15.00,
+        "description": "Pastel doce recheado com coco e chocolate.",
+        "cover": "https://example.com/images/pastel-prestigio-15cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-prestigio-15cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Coco;",
+          "Chocolate;"
+        ]
       },
       {
         "id": "23",
-        "title": "Frango com catupiry 15 cm",
-        "price": 12.00,
-        "ingredients": []
+        "title": "Prestígio 20 cm",
+        "price": 18.00,
+        "description": "Pastel doce grande recheado com coco e chocolate.",
+        "cover": "https://example.com/images/pastel-prestigio-20cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-prestigio-20cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Coco;",
+          "Chocolate;"
+        ]
       },
       {
         "id": "24",
-        "title": "Frango com catupiry 20 cm",
-        "price": 17.00,
-        "ingredients": []
+        "title": "Banana c/ canela 15 cm",
+        "price": 15.00,
+        "description": "Pastel doce recheado com banana e canela.",
+        "cover": "https://example.com/images/pastel-banana-canela-15cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-banana-canela-15cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Banana;",
+          "Canela;"
+        ]
       },
       {
         "id": "25",
-        "title": "Calabresa 15 cm",
-        "price": 10.00,
-        "ingredients": []
-      },
+        "title": "Banana c/ canela 20 cm",
+        "price": 18.00,
+        "description": "Pastel doce grande recheado com banana e canela.",
+        "cover": "https://example.com/images/pastel-banana-canela-20cm.jpg",
+        "thumbnail": "https://example.com/images/pastel-banana-canela-20cm-thumbnail.jpg",
+        "ingredients": [
+          "Massa de pastel;",
+          "Banana;",
+          "Canela;"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Refrigerantes",
+    "data": [
       {
         "id": "26",
-        "title": "Calabresa 20 cm",
-        "price": 15.00,
-        "ingredients": []
+        "title": "Refrigerante Lata",
+        "price": 5.00,
+        "description": "Escolha entre Coca, Fanta ou Guaraná.",
+        "cover": "https://example.com/images/refrigerante-lata.jpg",
+        "thumbnail": "https://example.com/images/refrigerante-lata-thumbnail.jpg",
+        "ingredients": [
+          "Coca;",
+          "Fanta;",
+          "Guaraná;"
+        ]
       },
       {
         "id": "27",
-        "title": "Calabresa c/ queijo 15 cm",
-        "price": 12.00,
-        "ingredients": []
+        "title": "Coca 1L",
+        "price": 9.00,
+        "description": "Garrafa de 1 litro de Coca-Cola.",
+        "cover": "https://example.com/images/coca-1l.jpg",
+        "thumbnail": "https://example.com/images/coca-1l-thumbnail.jpg",
+        "ingredients": [
+          "Coca-Cola;"
+        ]
       },
       {
         "id": "28",
-        "title": "Calabresa c/ queijo 20 cm",
-        "price": 17.00,
-        "ingredients": []
-      }
-    ]
-  },
-  {
-    "title": "Pastéis Doces",
-    "data": [
-      {
-        "id": "29",
-        "title": "Romeu e Julieta 15 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "30",
-        "title": "Romeu e Julieta 20 cm",
-        "price": 18.00,
-        "ingredients": []
-      },
-      {
-        "id": "31",
-        "title": "Chocolate Preto 15 cm",
+        "title": "Coca 2L",
         "price": 12.00,
-        "ingredients": []
-      },
-      {
-        "id": "32",
-        "title": "Chocolate Preto 20 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "33",
-        "title": "Chocolate Branco 15 cm",
-        "price": 12.00,
-        "ingredients": []
-      },
-      {
-        "id": "34",
-        "title": "Chocolate Branco 20 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "35",
-        "title": "Prestígio 15 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "36",
-        "title": "Prestígio 20 cm",
-        "price": 18.00,
-        "ingredients": []
-      },
-      {
-        "id": "37",
-        "title": "Banana c/ canela 15 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "38",
-        "title": "Banana c/ canela 20 cm",
-        "price": 18.00,
-        "ingredients": []
-      }
-    ]
-  },
-  {
-    "title": "Trufas",
-    "data": [
-      {
-        "id": "39",
-        "title": "Leite Ninho",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "40",
-        "title": "Brigadeiro",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "41",
-        "title": "Beijinho Tradicional",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "42",
-        "title": "Beijinho de Morango",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "43",
-        "title": "Beijinho de Pistache",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "44",
-        "title": "Doce de Leite",
-        "price": 3.00,
-        "ingredients": []
-      }
-    ]
-  },
-  {
-    "title": "Bombons",
-    "data": [
-      {
-        "id": "45",
-        "title": "Leite Ninho c/ Morango Fruta",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "46",
-        "title": "Leite Ninho c/ Uva Fruta",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "47",
-        "title": "Leite Ninho",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "48",
-        "title": "Brigadeiro",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "49",
-        "title": "Beijinho Tradicional",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "50",
-        "title": "Beijinho de Morango",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "51",
-        "title": "Beijinho de Pistache",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "52",
-        "title": "Doce de Leite",
-        "price": 5.00,
-        "ingredients": []
-      }
-    ]
-  },
-  {
-    "title": "Cones Recheados",
-    "data": [
-      {
-        "id": "53",
-        "title": "Leite Ninho c/ Morango Fruta",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "54",
-        "title": "Leite Ninho c/ Uva Fruta",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "55",
-        "title": "Leite Ninho",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "56",
-        "title": "Brigadeiro",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "57",
-        "title": "Beijinho Tradicional",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "58",
-        "title": "Beijinho de Morango",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "59",
-        "title": "Beijinho de Pistache",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "60",
-        "title": "Doce de Leite",
-        "price": 10.00,
-        "ingredients": []
+        "description": "Garrafa de 2 litros de Coca-Cola.",
+        "cover": "https://example.com/images/coca-2l.jpg",
+        "thumbnail": "https://example.com/images/coca-2l-thumbnail.jpg",
+        "ingredients": [
+          "Coca-Cola;"
+        ]
       }
     ]
   }
