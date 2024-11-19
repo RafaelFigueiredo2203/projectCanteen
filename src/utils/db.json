@@ -124,350 +124,155 @@
         "ingredients": []
       },
       {
-        "id": "8",
-        "title": "Refrigerante Lata",
-        "price": 5.00,
-        "description": "Escolha entre Coca, Fanta ou Guaraná.",
-        "ingredients": []
-      },
-      {
-        "id": "9",
-        "title": "Coca 1 LT",
-        "price": 9.00,
-        "ingredients": []
-      },
-      {
-        "id": "10",
-        "title": "Coca 2 LTS",
-        "price": 12.00,
-        "ingredients": []
-      },
-      {
-        "id": "11",
-        "title": "Guaraná 2 LTS",
-        "price": 9.00,
-        "ingredients": []
-      },
-      {
-        "id": "12",
-        "title": "Vedete 2 LTS",
-        "price": 7.00,
-        "ingredients": []
-      },
-      {
-        "id": "13",
-        "title": "Tampico 2 LTS",
-        "price": 9.00,
-        "ingredients": []
-      },
-      {
-        "id": "14",
-        "title": "Cerveja Lata",
-        "price": 5.00,
-        "description": "Escolha entre Brahma e Skol.",
-        "ingredients": []
-      }
-    ]
-  },
-  {
-    "title": "Pastéis Salgados",
-    "data": [
-      {
-        "id": "15",
-        "title": "Carne 15 cm",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "16",
-        "title": "Carne 20 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "17",
-        "title": "Carne c/ queijo 15 cm",
-        "price": 12.00,
-        "ingredients": []
-      },
-      {
-        "id": "18",
-        "title": "Carne c/ queijo 20 cm",
-        "price": 17.00,
-        "ingredients": []
-      },
-      {
-        "id": "19",
-        "title": "Queijo 15 cm",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "20",
-        "title": "Queijo 20 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "21",
-        "title": "Pizza 15 cm",
-        "price": 12.00,
-        "ingredients": []
-      },
-      {
-        "id": "22",
-        "title": "Pizza 20 cm",
-        "price": 17.00,
-        "ingredients": []
-      },
-      {
-        "id": "23",
-        "title": "Frango com catupiry 15 cm",
-        "price": 12.00,
-        "ingredients": []
-      },
-      {
-        "id": "24",
-        "title": "Frango com catupiry 20 cm",
-        "price": 17.00,
-        "ingredients": []
-      },
-      {
-        "id": "25",
-        "title": "Calabresa 15 cm",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "26",
-        "title": "Calabresa 20 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "27",
-        "title": "Calabresa c/ queijo 15 cm",
-        "price": 12.00,
-        "ingredients": []
-      },
-      {
-        "id": "28",
-        "title": "Calabresa c/ queijo 20 cm",
-        "price": 17.00,
-        "ingredients": []
-      }
-    ]
-  },
-  {
-    "title": "Pastéis Doces",
-    "data": [
-      {
-        "id": "29",
-        "title": "Romeu e Julieta 15 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "30",
-        "title": "Romeu e Julieta 20 cm",
-        "price": 18.00,
-        "ingredients": []
-      },
-      {
-        "id": "31",
-        "title": "Chocolate Preto 15 cm",
-        "price": 12.00,
-        "ingredients": []
-      },
-      {
-        "id": "32",
-        "title": "Chocolate Preto 20 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "33",
-        "title": "Chocolate Branco 15 cm",
-        "price": 12.00,
-        "ingredients": []
-      },
-      {
-        "id": "34",
-        "title": "Chocolate Branco 20 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "35",
-        "title": "Prestígio 15 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "36",
-        "title": "Prestígio 20 cm",
-        "price": 18.00,
-        "ingredients": []
-      },
-      {
-        "id": "37",
-        "title": "Banana c/ canela 15 cm",
-        "price": 15.00,
-        "ingredients": []
-      },
-      {
-        "id": "38",
-        "title": "Banana c/ canela 20 cm",
-        "price": 18.00,
-        "ingredients": []
-      }
-    ]
-  },
-  {
-    "title": "Trufas",
-    "data": [
-      {
-        "id": "39",
-        "title": "Leite Ninho",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "40",
-        "title": "Brigadeiro",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "41",
-        "title": "Beijinho Tradicional",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "42",
-        "title": "Beijinho de Morango",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "43",
-        "title": "Beijinho de Pistache",
-        "price": 3.00,
-        "ingredients": []
-      },
-      {
-        "id": "44",
-        "title": "Doce de Leite",
-        "price": 3.00,
-        "ingredients": []
-      }
-    ]
-  },
-  {
-    "title": "Bombons",
-    "data": [
-      {
-        "id": "45",
-        "title": "Leite Ninho c/ Morango Fruta",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "46",
-        "title": "Leite Ninho c/ Uva Fruta",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "47",
-        "title": "Leite Ninho",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "48",
-        "title": "Brigadeiro",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "49",
-        "title": "Beijinho Tradicional",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "50",
-        "title": "Beijinho de Morango",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "51",
-        "title": "Beijinho de Pistache",
-        "price": 5.00,
-        "ingredients": []
-      },
-      {
-        "id": "52",
-        "title": "Doce de Leite",
-        "price": 5.00,
-        "ingredients": []
-      }
-    ]
-  },
-  {
-    "title": "Cones Recheados",
-    "data": [
-      {
-        "id": "53",
-        "title": "Leite Ninho c/ Morango Fruta",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "54",
-        "title": "Leite Ninho c/ Uva Fruta",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "55",
-        "title": "Leite Ninho",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "56",
-        "title": "Brigadeiro",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "57",
-        "title": "Beijinho Tradicional",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "58",
-        "title": "Beijinho de Morango",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "59",
-        "title": "Beijinho de Pistache",
-        "price": 10.00,
-        "ingredients": []
-      },
-      {
-        "id": "60",
-        "title": "Doce de Leite",
-        "price": 10.00,
-        "ingredients": []
-      }
-    ]
-  }
-]
+      "id": "8",
+      "title": "Refrigerante Lata",
+      "price": 5.00,
+      "description": "Escolha entre Coca, Fanta ou Guaraná.",
+      "ingredients": []
+    },
+    {
+      "id": "9",
+      "title": "Coca 1 LT",
+      "price": 9.00,
+      "description": "Garrafa de Coca-Cola de 1 litro, ideal para compartilhar.",
+      "ingredients": []
+    },
+    {
+      "id": "10",
+      "title": "Coca 2 LTS",
+      "price": 12.00,
+      "description": "Garrafa de Coca-Cola de 2 litros, perfeita para famílias ou festas.",
+      "ingredients": []
+    },
+    {
+      "id": "11",
+      "title": "Guaraná 2 LTS",
+      "price": 9.00,
+      "description": "Garrafa de Guaraná de 2 litros, com sabor autêntico brasileiro.",
+      "ingredients": []
+    },
+    {
+      "id": "12",
+      "title": "Vedete 2 LTS",
+      "price": 7.00,
+      "description": "Refrigerante Vedete de 2 litros, sabor refrescante e econômico.",
+      "ingredients": []
+    },
+    {
+      "id": "13",
+      "title": "Tampico 2 LTS",
+      "price": 9.00,
+      "description": "Suco Tampico de 2 litros, disponível em diversos sabores.",
+      "ingredients": []
+    },
+    {
+      "id": "14",
+      "title": "Cerveja Lata",
+      "price": 5.00,
+      "description": "Escolha entre Brahma e Skol.",
+      "ingredients": []
+    },
+    {
+      "title": "Pastéis Salgados",
+      "data": [
+        {
+          "id": "15",
+          "title": "Carne 15 cm",
+          "price": 10.00,
+          "description": "Pastel de carne de 15 cm, com recheio suculento.",
+          "ingredients": []
+        },
+        {
+          "id": "16",
+          "title": "Carne 20 cm",
+          "price": 15.00,
+          "description": "Pastel de carne de 20 cm, ideal para quem quer mais sabor.",
+          "ingredients": []
+        },
+        {
+          "id": "17",
+          "title": "Carne c/ queijo 15 cm",
+          "price": 12.00,
+          "description": "Pastel de carne com queijo de 15 cm, combinação irresistível.",
+          "ingredients": []
+        },
+        {
+          "id": "18",
+          "title": "Carne c/ queijo 20 cm",
+          "price": 17.00,
+          "description": "Pastel de carne com queijo de 20 cm, para os fãs de queijo extra.",
+          "ingredients": []
+        },
+        {
+          "id": "19",
+          "title": "Queijo 15 cm",
+          "price": 10.00,
+          "description": "Pastel de queijo de 15 cm, para os amantes do sabor clássico.",
+          "ingredients": []
+        },
+        {
+          "id": "20",
+          "title": "Queijo 20 cm",
+          "price": 15.00,
+          "description": "Pastel de queijo de 20 cm, tamanho família.",
+          "ingredients": []
+        },
+        {
+          "id": "21",
+          "title": "Pizza 15 cm",
+          "price": 12.00,
+          "description": "Pastel de pizza de 15 cm, com recheio de queijo, presunto e orégano.",
+          "ingredients": []
+        },
+        {
+          "id": "22",
+          "title": "Pizza 20 cm",
+          "price": 17.00,
+          "description": "Pastel de pizza de 20 cm, perfeito para dividir.",
+          "ingredients": []
+        },
+        {
+          "id": "23",
+          "title": "Frango com catupiry 15 cm",
+          "price": 12.00,
+          "description": "Pastel de frango com catupiry de 15 cm, cremosidade garantida.",
+          "ingredients": []
+        },
+        {
+          "id": "24",
+          "title": "Frango com catupiry 20 cm",
+          "price": 17.00,
+          "description": "Pastel de frango com catupiry de 20 cm, ideal para quem quer mais.",
+          "ingredients": []
+        },
+        {
+          "id": "25",
+          "title": "Calabresa 15 cm",
+          "price": 10.00,
+          "description": "Pastel de calabresa de 15 cm, com sabor marcante.",
+          "ingredients": []
+        },
+        {
+          "id": "26",
+          "title": "Calabresa 20 cm",
+          "price": 15.00,
+          "description": "Pastel de calabresa de 20 cm, porção extra de sabor.",
+          "ingredients": []
+        },
+        {
+          "id": "27",
+          "title": "Calabresa c/ queijo 15 cm",
+          "price": 12.00,
+          "description": "Pastel de calabresa com queijo de 15 cm, dupla perfeita.",
+          "ingredients": []
+        },
+        {
+          "id": "28",
+          "title": "Calabresa c/ queijo 20 cm",
+          "price": 17.00,
+          "description": "Pastel de calabresa com queijo de 20 cm, generoso e delicioso.",
+          "ingredients": []
+        }
+      ]
+    }
+  ]
