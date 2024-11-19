@@ -127,6 +127,8 @@
       "id": "8",
       "title": "Refrigerante Lata",
       "price": 5.00,
+      "thumbnail": "https://storage.googleapis.com/domain-images/0c38f198-2db6-46b9-a240-c94df814c742/products/gallery_05af6053-f2ee-42a1-b4d2-6ab32ae0f6fd.jpg",
+      "cover": "https://storage.googleapis.com/domain-images/0c38f198-2db6-46b9-a240-c94df814c742/products/gallery_05af6053-f2ee-42a1-b4d2-6ab32ae0f6fd.jpg",
       "description": "Escolha entre Coca, Fanta ou Guaraná.",
       "ingredients": []
     },
