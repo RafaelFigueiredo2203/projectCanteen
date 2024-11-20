@@ -136,6 +136,8 @@
       "id": "9",
       "title": "Coca 1 LT",
       "price": 9.00,
+      "thumbnail": "https://static.paodeacucar.com/img/uploads/1/992/19465992.png",
+      "cover": "https://static.paodeacucar.com/img/uploads/1/992/19465992.png",
       "description": "Garrafa de Coca-Cola de 1 litro, ideal para compartilhar.",
       "ingredients": []
     },
@@ -143,6 +145,8 @@
       "id": "10",
       "title": "Coca 2 LTS",
       "price": 12.00,
+      "thumbnail": "https://static.clubeextra.com.br/img/uploads/1/1/25295001.png",
+      "cover": "https://static.clubeextra.com.br/img/uploads/1/1/25295001.png",
       "description": "Garrafa de Coca-Cola de 2 litros, perfeita para famílias ou festas.",
       "ingredients": []
     },
@@ -150,27 +154,17 @@
       "id": "11",
       "title": "Guaraná 2 LTS",
       "price": 9.00,
+      "thumbnail": "https://coopsp.vtexassets.com/arquivos/ids/215370-800-auto?v=637919527259000000&width=800&height=auto&aspect=true",
+      "cover": "https://coopsp.vtexassets.com/arquivos/ids/215370-800-auto?v=637919527259000000&width=800&height=auto&aspect=true",
       "description": "Garrafa de Guaraná de 2 litros, com sabor autêntico brasileiro.",
-      "ingredients": []
-    },
-    {
-      "id": "12",
-      "title": "Vedete 2 LTS",
-      "price": 7.00,
-      "description": "Refrigerante Vedete de 2 litros, sabor refrescante e econômico.",
-      "ingredients": []
-    },
-    {
-      "id": "13",
-      "title": "Tampico 2 LTS",
-      "price": 9.00,
-      "description": "Suco Tampico de 2 litros, disponível em diversos sabores.",
       "ingredients": []
     },
     {
       "id": "14",
       "title": "Cerveja Lata",
       "price": 5.00,
+      "thumbnail": "https://demo.click-delphi.com.br/delivery2020/wp-content/uploads/2020/08/cervejas-lata.jpg",
+      "cover": "https://demo.click-delphi.com.br/delivery2020/wp-content/uploads/2020/08/cervejas-lata.jpg",
       "description": "Escolha entre Brahma e Skol.",
       "ingredients": []
     }
@@ -184,98 +178,54 @@
           "id": "15",
           "title": "Carne 15 cm",
           "price": 10.00,
+          "thumbnail": "https://portalsabores.com.br/wp-content/uploads/2013/07/Pastel-de-Carne-2.jpg",
+          "cover": "https://portalsabores.com.br/wp-content/uploads/2013/07/Pastel-de-Carne-2.jpg",
           "description": "Pastel de carne de 15 cm, com recheio suculento.",
-          "ingredients": []
-        },
-        {
-          "id": "16",
-          "title": "Carne 20 cm",
-          "price": 15.00,
-          "description": "Pastel de carne de 20 cm, ideal para quem quer mais sabor.",
           "ingredients": []
         },
         {
           "id": "17",
           "title": "Carne c/ queijo 15 cm",
           "price": 12.00,
+          "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/0a/6e/df/5b/pastel-carne-queijo.jpg",
+          "cover": "https://media-cdn.tripadvisor.com/media/photo-s/0a/6e/df/5b/pastel-carne-queijo.jpg",
           "description": "Pastel de carne com queijo de 15 cm, combinação irresistível.",
-          "ingredients": []
-        },
-        {
-          "id": "18",
-          "title": "Carne c/ queijo 20 cm",
-          "price": 17.00,
-          "description": "Pastel de carne com queijo de 20 cm, para os fãs de queijo extra.",
           "ingredients": []
         },
         {
           "id": "19",
           "title": "Queijo 15 cm",
           "price": 10.00,
+          "thumbnail": "https://lactvit.com.br/wp-content/uploads/2023/01/pastel-mussarela-grande.jpg",
+          "cover": "https://lactvit.com.br/wp-content/uploads/2023/01/pastel-mussarela-grande.jpg",
           "description": "Pastel de queijo de 15 cm, para os amantes do sabor clássico.",
-          "ingredients": []
-        },
-        {
-          "id": "20",
-          "title": "Queijo 20 cm",
-          "price": 15.00,
-          "description": "Pastel de queijo de 20 cm, tamanho família.",
           "ingredients": []
         },
         {
           "id": "21",
           "title": "Pizza 15 cm",
           "price": 12.00,
+          "thumbnail": "https://pasteldotrevodebertioga.com.br/wp-content/uploads/2020/02/r3-express-food.jpg",
+          "cover": "https://pasteldotrevodebertioga.com.br/wp-content/uploads/2020/02/r3-express-food.jpg",
           "description": "Pastel de pizza de 15 cm, com recheio de queijo, presunto e orégano.",
-          "ingredients": []
-        },
-        {
-          "id": "22",
-          "title": "Pizza 20 cm",
-          "price": 17.00,
-          "description": "Pastel de pizza de 20 cm, perfeito para dividir.",
           "ingredients": []
         },
         {
           "id": "23",
           "title": "Frango com catupiry 15 cm",
           "price": 12.00,
+          "thumbnail": "https://burger.modelos.sitedeempresas.com.br/wp-content/uploads/2023/06/pastel-4.jpg",
+          "cover": "https://burger.modelos.sitedeempresas.com.br/wp-content/uploads/2023/06/pastel-4.jpg",
           "description": "Pastel de frango com catupiry de 15 cm, cremosidade garantida.",
-          "ingredients": []
-        },
-        {
-          "id": "24",
-          "title": "Frango com catupiry 20 cm",
-          "price": 17.00,
-          "description": "Pastel de frango com catupiry de 20 cm, ideal para quem quer mais.",
           "ingredients": []
         },
         {
           "id": "25",
           "title": "Calabresa 15 cm",
           "price": 10.00,
+          "thumbnail": "https://sg-delivery.s3.sa-east-1.amazonaws.com/upload/images/040703202210236354e8177fc97.jpg",
+          "cover": "https://sg-delivery.s3.sa-east-1.amazonaws.com/upload/images/040703202210236354e8177fc97.jpg",
           "description": "Pastel de calabresa de 15 cm, com sabor marcante.",
-          "ingredients": []
-        },
-        {
-          "id": "26",
-          "title": "Calabresa 20 cm",
-          "price": 15.00,
-          "description": "Pastel de calabresa de 20 cm, porção extra de sabor.",
-          "ingredients": []
-        },
-        {
-          "id": "27",
-          "title": "Calabresa c/ queijo 15 cm",
-          "price": 12.00,
-          "description": "Pastel de calabresa com queijo de 15 cm, dupla perfeita.",
-          "ingredients": []
-        },
-        {
-          "id": "28",
-          "title": "Calabresa c/ queijo 20 cm",
-          "price": 17.00,
-          "description": "Pastel de calabresa com queijo de 20 cm, generoso e delicioso.",
           "ingredients": []
         }
       ]
