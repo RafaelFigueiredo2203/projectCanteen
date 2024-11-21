@@ -9,6 +9,7 @@ export interface Product {
   cover: string;
   thumbnail: string;
   ingredients: string[];
+  quantity:number
 }
 
 interface CartContextType {

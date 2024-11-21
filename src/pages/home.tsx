@@ -1,5 +1,6 @@
 
 import { Skeleton } from "@/components/ui/skeleton";
+import { useCart } from "@/utils/context/useCart";
 import axios from "axios";
 import { Key, useEffect } from "react";
 import { useQuery } from "react-query";
@@ -8,6 +9,8 @@ import { ProductCard } from "./components/product-card";
 
 
 export function Home(){
+  const {setProductsBuy} = useCart()
+
   const productsJSON = localStorage.getItem('cart');
   const products = productsJSON ? JSON.parse(productsJSON) : [];
 
@@ -31,6 +34,12 @@ export function Home(){
       
     }, [productsStringfy, refetch]); // Certifique-se de adicionar dependências vazias para executar apenas uma vez
 
+    useEffect(() => {
+      const productsJSON = localStorage.getItem('cart');
+      const products = productsJSON ? JSON.parse(productsJSON) : [];
+      setProductsBuy(products)
+    
+    }, [setProductsBuy]);
 
   if (isLoading) return (
     <>

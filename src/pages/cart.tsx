@@ -32,11 +32,11 @@ export function Cart(){
   const notify = () => toast.warn("Produto removido!", {position:'top-center'});
   const notifyFinally = () => toast.success("Pedido processado com sucesso!", {position:'top-center'});
 
-  const total = FormatCurrency(productsBuy.reduce((total,product) => total + product.price ,0))
+  const total = FormatCurrency(productsBuy.reduce((total,product) => total + product.price * product.quantity,0))
 
   const { register, handleSubmit, control,reset ,formState: { errors } } = useForm<IFormInput>()
   const onSubmit: SubmitHandler<IFormInput> = (data) => {
-    const finallyProducts = productsBuy.map((product) => `\n-${product.title} - ${FormatCurrency(product.price)}`)
+    const finallyProducts = productsBuy.map((product) => `\n- ${product.title} - Quantidade:${product.quantity} - ${FormatCurrency(product.price)}`)
     .join("")
   
   const message = `
@@ -66,27 +66,32 @@ export function Cart(){
   }
  
 
- useEffect(() => {
-  const productsJSON = localStorage.getItem('cart');
-  const products = productsJSON ? JSON.parse(productsJSON) : [];
-  setProductsBuy(products)
-
-}, [setProductsBuy]);
+ 
 
 function handleProductRemove(id: string) {
-  const productIndex = productsBuy.findIndex(product => product.id === id);
+  const existingProductIndex = productsBuy.findIndex(p => p.id === id);
 
-  if (productIndex !== -1) { // Verifica se o produto foi encontrado
-    const filterProducts = [...productsBuy]; // Cria uma cópia do array de produtos
-    filterProducts.splice(productIndex, 1); // Remove o produto do array
+  if (existingProductIndex !== -1) {
+    const updatedProducts = [...productsBuy];
+    const product = updatedProducts[existingProductIndex];
 
-    setProductsBuy(filterProducts); // Atualiza o estado com o novo array de produtos
+    if (product.quantity > 1) {
+      // Se a quantidade for maior que 1, decrementa
+      product.quantity -= 1;
+    } else {
+      // Remove completamente o produto se a quantidade for 1
+      updatedProducts.splice(existingProductIndex, 1);
+    }
 
-    localStorage.setItem('cart', JSON.stringify(filterProducts));
-    notify() // Atualiza o armazenamento local
+    setProductsBuy(updatedProducts);
+    localStorage.setItem('cart', JSON.stringify(updatedProducts));
+    notify();
   }
 }
 
+useEffect(() => {
+  localStorage.setItem('cart', JSON.stringify(productsBuy));
+}, [productsBuy]);
 
   return(
     <div className="flex flex-col flex-1 pt-8 p-5 ">
@@ -101,6 +106,7 @@ function handleProductRemove(id: string) {
             title={product.title}
             description={product.description}
             thumbnail={product.thumbnail}
+            quantity={product.quantity}
             showRemoveButton
             onRemoveproduct={() => handleProductRemove(product.id)}
             />
